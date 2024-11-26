@@ -1,0 +1,22 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.vitest.json"
+    }
+  ],
+  "compilerOptions": {
+    "target": "ESNext",
+    "strict": true,
+    "module": "NodeNext",
+    "declaration": true, // 根据实际需求设置，这里假设需要生成.d.ts文件所以设为true
+    "noEmit": false, // 将禁止代码生成的设置修改为允许，即设为false
+  },
+  "exclude": ["node_modules"]
+}
