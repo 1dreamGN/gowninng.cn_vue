@@ -16,7 +16,7 @@
 
 将server.js 和package.json 放到项目根目录 package.json内容为
 
-`{
+```{
   "name": "gowninng_vue_server",
   "version": "1.0.0",
   "description": "",
@@ -33,7 +33,7 @@
     "nodemon": "^3.1.7"
   }
 }
-`
+```
 然后npm install 安装模块 再npm run start启动服务器状态插件
 
 #以下是Vue官方介绍的启动方式
