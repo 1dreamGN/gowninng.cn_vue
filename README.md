@@ -16,7 +16,8 @@
 
 将server.js 和package.json 放到项目根目录 package.json内容为
 
-```{
+```
+{
   "name": "gowninng_vue_server",
   "version": "1.0.0",
   "description": "",
