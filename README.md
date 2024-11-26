@@ -8,6 +8,35 @@
 
 ![alt text](1732611136862.png)
 
+将某源码（忘了叫啥，没找到模板名）改成了vue版本，并大量改动部分样式，添加一言，服务器状态等
+
+服务器状态js在src/utils/server.js 打包项目的时候要单独拉出来 下面是打包后的结构
+
+![1732611612307](https://github.com/user-attachments/assets/a92ced6a-73ef-46a2-9189-a09bb29c0f2a)
+
+将server.js 和package.json 放到项目根目录 package.json内容为
+
+```
+{
+  "name": "gowninng_vue_server",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
+```
+然后npm install 安装模块 再npm run start启动服务器状态插件
+
 #以下是Vue官方介绍的启动方式
 
 这个模板应该帮助你开始使用 Vue 3 和 Vite 进行开发。
