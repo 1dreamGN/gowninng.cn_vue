@@ -91,16 +91,16 @@
 
 ### 服务器状态监控部署
 
-配置后台url文件为 \src\stores\globalStore.ts
+**前端配置文件在 \src\stores\globalStore.ts
+后端配置文件在 \server\src\main\resources\application.properties
+后端打包成jar后，然后在jar所在的目录创建config文件夹，将后端的配置文件application.properties放到config文件夹中。**
+
 
 服务器状态监控功能现已集成到后端项目中，无需额外的Node.js服务。之前的nodejs代码还在保留。
 
+~~node版本服务器状态js在src/utils/server.js 打包项目的时候要单独拉出来，放到项目根目录下。~~
 
-node版本服务器状态js在src/utils/server.js 打包项目的时候要单独拉出来 下面是打包后的结构
-
-![1732611612307](https://github.com/user-attachments/assets/a92ced6a-73ef-46a2-9189-a09bb29c0f2a)
-
-将server.js 和package.json 放到项目根目录 package.json内容为
+~~将server.js 和package.json 放到项目根目录 package.json内容为~~
 
 ```
 {
@@ -122,7 +122,7 @@ node版本服务器状态js在src/utils/server.js 打包项目的时候要单独
 }
 ```
 
-然后npm install 安装模块 再npm run start启动服务器状态插件
+~~然后npm install 安装模块 再npm run start启动服务器状态插件~~
 
 #以下是Vue官方介绍的启动方式
 
