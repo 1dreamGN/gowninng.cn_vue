@@ -96,9 +96,8 @@
 服务器状态监控功能现已集成到后端项目中，无需额外的Node.js服务。之前的nodejs代码还在保留。
 
 
-node版本服务器状态js在src/utils/server.js 打包项目的时候要单独拉出来 下面是打包后的结构
+node版本服务器状态js在src/utils/server.js 打包项目的时候要单独拉出来 
 
-![1732611612307](https://github.com/user-attachments/assets/a92ced6a-73ef-46a2-9189-a09bb29c0f2a)
 
 将server.js 和package.json 放到项目根目录 package.json内容为
 
