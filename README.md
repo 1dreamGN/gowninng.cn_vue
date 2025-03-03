@@ -100,14 +100,7 @@
 
 ~~node版本服务器状态js在src/utils/server.js 打包项目的时候要单独拉出来，放到项目根目录下。~~
 
-<<<<<<< HEAD
 ~~将server.js 和package.json 放到项目根目录 package.json内容为~~
-=======
-node版本服务器状态js在src/utils/server.js 打包项目的时候要单独拉出来 
-
-
-将server.js 和package.json 放到项目根目录 package.json内容为
->>>>>>> 25468f19c8f0c3ee4058ba988360b7da67db3689
 
 ```
 {
